@@ -1,6 +1,6 @@
 import cv2
 from pyzbar.pyzbar import decode
-
+import numpy as np
 # Load the image
 image_path = 'Barcode2.jpg'
 image = cv2.imread(image_path)
